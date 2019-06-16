@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.java.nameWindow">
+   <children>
+      <TextField fx:id="nameField" layoutX="222.0" layoutY="45.0" />
+      <Text layoutX="56.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wprowadź nazwę pomiaru" />
+      <Button fx:id="addButton" layoutX="126.0" layoutY="100.0" mnemonicParsing="false" onAction="#addButton" text="Dodaj" />
+      <Button fx:id="cancelButton" cancelButton="true" layoutX="222.0" layoutY="100.0" mnemonicParsing="false" onAction="#cancelButton" text="Anuluj" />
+   </children>
+</Pane>

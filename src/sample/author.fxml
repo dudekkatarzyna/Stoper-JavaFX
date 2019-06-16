@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.java.Controller">
+   <children>
+      <Label layoutX="104.0" layoutY="265.0" text="Katarzyna Dudek">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="300.0" text="IS gr.1" />
+      <ImageView fitHeight="197.0" fitWidth="225.0" layoutX="68.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/startup-accelerator-default-user-image.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</Pane>
