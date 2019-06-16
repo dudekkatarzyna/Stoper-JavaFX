@@ -63,18 +63,7 @@ public class Controller  implements Runnable, Initializable {
 
         finish=LocalTime.now();
         t.suspend();
-/*        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("nameWindow.fxml"));
 
-        loader.load();
-
-        Parent root = loader.getRoot();
-        Stage stage = new Stage();
-        stage.setTitle("Nazwa pomiaru");
-        stage.setScene(new Scene(root, 400, 170));
-        stage.setResizable(false);
-
-        stage.show();*/
       Platform.runLater(() -> {
           printToList();
           reset();
